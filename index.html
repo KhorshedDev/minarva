@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CNG UNIT CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css" title="" type="" />
+  </head>
+
+  <body>
+    <!--========Content---->
+    <div class="btnGroup">
+      <button class="btn save">Save</button>
+      <button class="btn import">Import</button>
+      <button class="btn thief">Troggle</button>
+    </div>
+    <div class="container">
+      <!---Tkk--->
+      <div class="tk">
+        <h3>All TK details</h3>
+        <div class="row">
+          <div class="closing">
+            <ul>
+              <li><h4>Closing Amount</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="tcd1" value="" /></li>
+              <li><input placeholder="D2" type="number" name="" id="tcd2" value="" /></li>
+              <li><input placeholder="D3" type="number" name="" id="tcd3" value="" /></li>
+              <li><input placeholder="D4" type="number" name="" id="tcd4" value="" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="tctotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="opening">
+            <ul>
+              <li><h4>Opening Amount</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="tod1" value="" /></li>
+              <li><input placeholder="D2" type="number" name="" id="tod2" value="" /></li>
+              <li><input placeholder="D3" type="number" name="" id="tod3" value="" /></li>
+              <li><input placeholder="D4" type="number" name="" id="tod4" value="" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="tototal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="sub-result">
+            <ul>
+              <li><h4>Daily Sell</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="tdd1" readonly="true" /></li>
+              <li><input placeholder="D2" type="number" name="" id="tdd2" readonly="true" /></li>
+              <li><input placeholder="D3" type="number" name="" id="tdd3" readonly="true" /></li>
+              <li><input placeholder="D4" type="number" name="" id="tdd4" readonly="true" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="tdtotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="unit">
+        <!-----Unit--->
+        <h3>All GAS Unit Details</h3>
+        <div class="row">
+          <div class="closing">
+            <ul>
+              <li><h4>Closing Amount</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="ucd1" value="" /></li>
+              <li><input placeholder="D2" type="number" name="" id="ucd2" value="" /></li>
+              <li><input placeholder="D3" type="number" name="" id="ucd3" /></li>
+              <li><input placeholder="D4" type="number" name="" id="ucd4" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="uctotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="opening">
+            <ul>
+              <li><h4>Opening Amount</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="uod1" value="" /></li>
+              <li><input placeholder="D2" type="number" name="" id="uod2" value="" /></li>
+              <li><input placeholder="D3" type="number" name="" id="uod3" value="" /></li>
+              <li><input placeholder="D4" type="number" name="" id="uod4" value="" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="uototal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="sub-result">
+            <ul>
+              <li><h4>Calculated Amount</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="udd1" readonly="true" /></li>
+              <li><input placeholder="D2" type="number" name="" id="udd2" readonly="true" /></li>
+              <li><input placeholder="D3" type="number" name="" id="udd3" readonly="ture" /></li>
+              <li><input placeholder="D4" type="number" name="" id="udd4" readonly="ture" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="udtotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <h2>
+          If Gas unit is 43. Than <span id="unit">00</span> unit Price will be
+          <span id="Tk">0000</span>Tk.
+        </h2>
+      </div>
+    </div>
+    <div class="thief_container">
+      <h1>Hidden Details</h1>
+
+      <!---Tkk--->
+      <div class="tk">
+        <h3>All TK details</h3>
+        <div class="row">
+          <div class="closing">
+            <ul>
+              <li><h4>Closing Amount</h4></li>
+              <li>
+                <input placeholder="D1" type="number" name="" id="ttcd1" value="" />
+              </li>
+              <li>
+                <input placeholder="D2" type="number" name="" id="ttcd2" value="" />
+              </li>
+              <li>
+                <input placeholder="D3" type="number" name="" id="ttcd3" value="" />
+              </li>
+              <li>
+                <input placeholder="D4" type="number" name="" id="ttcd4" value="" />
+              </li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="ttctotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="opening">
+            <ul>
+              <li><h4>Opening Amount</h4></li>
+              <li>
+                <input placeholder="D1" type="number" name="" id="ttod1" value="" />
+              </li>
+              <li>
+                <input placeholder="D2" type="number" name="" id="ttod2" value="" />
+              </li>
+              <li>
+                <input placeholder="D3" type="number" name="" id="ttod3" value="" />
+              </li>
+              <li>
+                <input placeholder="D4" type="number" name="" id="ttod4" value="" />
+              </li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="ttototal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="sub-result">
+            <ul>
+              <li><h4>Daily Sell</h4></li>
+              <li>
+                <input placeholder="D1" type="number" name="" id="ttdd1" readonly="true" />
+              </li>
+              <li>
+                <input placeholder="D2" type="number" name="" id="ttdd2" readonly="true" />
+              </li>
+              <li>
+                <input placeholder="D3" type="number" name="" id="ttdd3" readonly="true" />
+              </li>
+              <li>
+                <input placeholder="D4" type="number" name="" id="ttdd4" readonly="true" />
+              </li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="ttdtotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="unit">
+        <!-----Unit--->
+        <h3>All GAS Unit Details</h3>
+        <div class="row">
+          <div class="closing">
+            <ul>
+              <li><h4>Closing Amount</h4></li>
+              <li>
+                <input placeholder="D1" type="number" name="" id="tucd1" value="" />
+              </li>
+              <li>
+                <input placeholder="D2" type="number" name="" id="tucd2" value="" />
+              </li>
+              <li><input placeholder="D3" type="number" name="" id="tucd3" /></li>
+              <li><input placeholder="D4" type="number" name="" id="tucd4" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="tuctotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="opening">
+            <ul>
+              <li><h4>Opening Amount</h4></li>
+              <li>
+                <input placeholder="D1" type="number" name="" id="tuod1" value="" />
+              </li>
+              <li>
+                <input placeholder="D2" type="number" name="" id="tuod2" value="" />
+              </li>
+              <li>
+                <input placeholder="D3" type="number" name="" id="tuod3" value="" />
+              </li>
+              <li>
+                <input placeholder="D4" type="number" name="" id="tuod4" value="" />
+              </li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="tuototal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+          <div class="sub-result">
+            <ul>
+              <li><h4>Calculated Amount</h4></li>
+              <li><input placeholder="D1" type="number" name="" id="tudd1" readonly="true" /></li>
+              <li><input placeholder="D2" type="number" name="" id="tudd2" readonly="true" /></li>
+              <li><input placeholder="D3" type="number" name="" id="tudd3" readonly="ture" /></li>
+              <li><input placeholder="D4" type="number" name="" id="tudd4" readonly="ture" /></li>
+              <li>
+                <input placeholder="Total" type="number" name="" id="tudtotal" readonly="true" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <h2>
+          If Gas unit is 43. Than <span id="tunit">00</span> unit Price will be
+          <span id="tTk">0000</span>Tk.
+        </h2>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="./app.js"></script>
+  </body>
+</html>

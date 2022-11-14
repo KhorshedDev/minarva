@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: tomato;
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 260px;
+  list-style: none;
+}
+li h4 {
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+li:nth-child(6) input {
+  background-color: cornflowerblue;
+  font-size: 18px;
+  border: 1px solid white;
+  color: white !important ;
+  padding-right: 10px;
+}
+li input {
+  padding: 7px 10px;
+  width: 100%;
+}
+.unit {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 23;
+  font-family: sans-serif;
+}
+h2 span:first-of-type {
+  padding: 5px;
+  background-color: tomato;
+  color: white;
+}
+h2 span:last-of-type {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+}
+
+.btnGroup {
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: aqua;
+  padding-top: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.save {
+  background-color: green;
+  color: white;
+}
+
+.import {
+  background-color: yellow;
+}
+
+.thief {
+  background-color: black;
+  color: white;
+}
+.thief_container {
+  width: 90%;
+  margin: 40px auto;
+  display: none;
+}
+.container {
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+}
+.thief_container > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.thief_input {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.thief_input label {
+  font-size: 18px;
+  margin: 5px;
+}
+.thief_input input,
+.thief_input select {
+  margin: 5px 10px;
+  padding: 10px 20px;
+}
+option {
+  padding: 10px;
+}
